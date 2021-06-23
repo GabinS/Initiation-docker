@@ -1,4 +1,4 @@
-# Initiation-docker
+# Initiation-docker (je suis sur linux)
 ## Les bases de docker
 
 - [x] Installer Docker
@@ -16,7 +16,7 @@ docker run -d --name mon-nginx -p 8081:80  nginx
 ```
 docker run -d --name mon-wordpress -p 8082:80 wordpressdocker run -d --name
 ```
-- [x] install de ghost
+- [x] installer ghost
 ```
 mon-ghost -e url=http://localhost:3001 -p 3001:2368 ghost
 ```
