@@ -14,9 +14,9 @@ docker run -d --name mon-nginx -p 8081:80  nginx
 ```
 - [x] Faire tourner Wordpress en utilisant une image toute faite
 ```
-docker run -d --name mon-wordpress -p 8082:80 wordpressdocker run -d --name
+docker run -d --name mon-wordpress -p 8082:80 wordpress
 ```
 - [x] installer ghost
 ```
-mon-ghost -e url=http://localhost:3001 -p 3001:2368 ghost
+docker run -d --name mon-ghost -e url=http://localhost:3001 -p 3001:2368 ghost
 ```
