@@ -1,0 +1,16 @@
+version: "3.3"
+
+services:
+    armagetron:
+        build: ./
+        ports:
+            - 4534:4534/udp
+
+# Autre essai
+# version: "3.3"
+
+# services:
+#     armagetron:
+#         image: armagetron/ubuntu-mpi:21.10
+#         ports:
+#             - 8082:80

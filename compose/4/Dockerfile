@@ -1,9 +1,7 @@
 FROM debian:stable-slim
 RUN apt-get update && \
-    apt-get install -y nodejs && \
-    apt-get install -y npm && \
+    apt-get install -y nodejs npm git && \
     npm install -g npm@6.14.11 && \
-    apt-get install -y git && \
     git clone https://github.com/jponcy/fake-game-api && \
     rm -r /var/lib/apt/lists/*
 

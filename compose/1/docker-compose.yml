@@ -1,0 +1,9 @@
+version: "3.3"
+
+services:
+    httpd:
+        image: httpd:2.4
+        volumes:
+            - ./mini-site:/usr/local/apache2/htdocs
+        ports:
+            - 8081:80

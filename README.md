@@ -101,3 +101,24 @@ docker run -it --rm -p 8084:80 my-debian-wordpress
 docker run --name my-sql -e MYSQL_ROOT_PASSWORD=password -e WORDPRESS_HOST_ADDRESS=http://localhost:8084 my-debian-wordpress
 
 ```
+
+## Compose
+
+1. mettre en place un docker compose avec pour seul service lancé un httpd en utilisant notre image custom (avec le mini site)
+
+Dossier compose/1
+
+2. mettre en place un wordpress avec : volume + base de donnée MySQL
+
+Dossier compose/2
+
+user wordpress : user
+mdp wordpress : riCsv4$3SKSsB%wXX1
+
+3. faire un serveur Armagetron
+
+Dossier compose/3
+
+4. faire un projet de votre choix
+
+Dossier compose/4
