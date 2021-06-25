@@ -113,6 +113,7 @@ Dossier compose/1
 Dossier compose/2
 
 user wordpress : user
+
 mdp wordpress : riCsv4$3SKSsB%wXX1
 
 3. faire un serveur Armagetron
